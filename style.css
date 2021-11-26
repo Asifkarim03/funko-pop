@@ -1,0 +1,72 @@
+.fondo {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  background-color: white;
+  border: thin solid gray;
+
+  z-index: -3;
+}
+
+.muneco {
+  /* centramos verticalmente la patata */
+  position: relative;
+
+  margin: 0 auto;
+  /* fin centrar verticalmente la patata */
+  border: thin solid green;
+  height: 30em;
+  width: 30em;
+
+}
+
+
+.cabeza{
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: #7fd3f7;
+border: thin solid #7fd3f7;
+right: em;
+border-radius: 50% 50% 50% 50% / 40% 40% 40% 40%
+}
+
+.derecho {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border: thin solid black;
+  border-radius: 50%;
+  top: 4em;
+  left: 9em;
+  right: 0em;
+}
+
+.izquierdo {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border: thin solid black;
+  border-radius: 50%;
+  top: 2em;
+  left: 1em;
+  right: 0em;
+}
+
+.boca{
+  position: relative;
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  border: thin solid black;
+  top: 4em;
+  left: 50px;
+  right: 0em;
+
+}
